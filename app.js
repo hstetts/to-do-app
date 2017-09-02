@@ -32,7 +32,9 @@ function onReady(){
   });
 }
 
+addToDoForm.addEventListener('delete', (event) => {
+  event.preventDefault();
+
 window.onload = function() {
-  alert("The window has loaded!");
   onReady();
 };
