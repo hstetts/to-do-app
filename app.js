@@ -22,7 +22,7 @@ function onReady() {
     newLi.textContent = title;
 
     // attach it to the ul
-    todoList.appendChild(newLi);
+    toDoList.appendChild(newLi);
 
     // attach the checkbox to the li
     newLi.appendChild(checkbox);
